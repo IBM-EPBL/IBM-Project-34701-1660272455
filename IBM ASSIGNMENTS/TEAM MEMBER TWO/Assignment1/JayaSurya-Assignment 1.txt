@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>User Registration Form</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="root">
+      <div class="form-container">
+        <div class="form__header">User Registration Form</div>
+        <div class="form__fields">
+          <div class="form-field">
+            <p class="field__label">Name</p>
+            <input type="text" class="field__box" placeholder="Name"/>
+          </div>
+          <div class="form-field">
+            <p class="field__label">Email</p>
+            <input type="text" class="field__box" placeholder="Email"/>
+          </div>
+          <div class="form-field">
+            <p class="field__label">Mobile</p>
+            <input type="text" class="field__box" placeholder="Mobile"/>
+          </div>
+          <div class="form-field">
+            <p class="field__label">City</p>
+            <input type="text" class="field__box" placeholder="City"/>
+          </div>
+          <div class="form-field">
+            <p class="field__label">State</p>
+            <input type="text" class="field__box" placeholder="State"/>
+          </div>
+          <div class="form-field">
+            <p class="field__label">Country</p>
+            <input type="text" class="field__box" placeholder="Country"/>
+          </div>
+        </div>
+        <div class="form__buttons">
+                    <br>
+			<button class="btn--primary">Submit</button>
+		</div>
+      </div>
+    </div>
+  </body>
+</html>
